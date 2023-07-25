@@ -1,23 +1,23 @@
 ::===========================================================
 ::===========================================================
-::         TelegramÂ²©ö¤U¸ü¤u¨ã By¡GGZ Information
-::    ·PÁÂ±z¨Ï¥Î¥»À³¥Îµ{¦¡¡AÅwªï±zªº¦A¦¸ªº¨Ï¥Î
+::         Telegramç°¡æ˜“ä¸‹è¼‰å·¥å…· Byï¼šGZ Information
+::    æ„Ÿè¬æ‚¨ä½¿ç”¨æœ¬æ‡‰ç”¨ç¨‹å¼ï¼Œæ­¡è¿Žæ‚¨çš„å†æ¬¡çš„ä½¿ç”¨
 :: Copyright(C) 2023 GZ Information  All rights reserved
 ::===========================================================
 ::===========================================================
 @echo off
-title TelegramÂ²©ö¤U¸ü¤u¨ã By¡GGZ Information
+title Telegramç°¡æ˜“ä¸‹è¼‰å·¥å…· Byï¼šGZ Information
 echo.======================================
-echo.          ¡°µn¿ý Telegram¡°
+echo.          â€»ç™»éŒ„ Telegramâ€»
 echo.======================================
-echo.½Ð¿ï¾Ü»Ý­n°õ¦æªº¥N¸¹¡G
+echo.è«‹é¸æ“‡éœ€è¦åŸ·è¡Œçš„ä»£è™Ÿï¼š
 echo.
-echo. 1. §Ö³tµn¿ý Telegram(ªì¦¸¨Ï¥Î½Ð¥ýµn¤J¸ê®Æ§¨¤ºªºTelegramÀ³¥Îµ{¦¡)
-echo. 2. Â²°Tµn¿ý Telegram
-echo. 3. Â÷¶}¦¹À³¥Îµ{¦¡
+echo. 1. å¿«é€Ÿç™»éŒ„ Telegram(åˆæ¬¡ä½¿ç”¨è«‹å…ˆç™»å…¥è³‡æ–™å¤¾å…§çš„Telegramæ‡‰ç”¨ç¨‹å¼)
+echo. 2. ç°¡è¨Šç™»éŒ„ Telegram
+echo. 3. é›¢é–‹æ­¤æ‡‰ç”¨ç¨‹å¼
 echo.
 set Choice=
-set /P Choice= ½Ð¿ï¾Ü»Ý­n°õ¦æªº¼Æ¦r¡A¨Ã«öEntere°õ¦æ¡÷
+set /P Choice= è«‹é¸æ“‡éœ€è¦åŸ·è¡Œçš„æ•¸å­—ï¼Œä¸¦æŒ‰EntereåŸ·è¡Œâ†’
 echo.
 IF /I "%Choice%"=="1" goto num1
 IF /I "%Choice%"=="2" goto num2
@@ -25,81 +25,81 @@ IF /I "%Choice%"=="3" goto num3
 :num1
      cls
      echo.======================================
-     echo.          ¡°µn¿ý Telegram¡°
+     echo.          â€»ç™»éŒ„ Telegramâ€»
      echo.======================================
      echo.
-     echo.          Telegramµn¤J»¡©ú
+     echo.          Telegramç™»å…¥èªªæ˜Ž
      echo.
-     echo. 1.Choose a user id (¿ï¾Ü§Aªº¨Ï¥ÎªÌID) ½ÐÂIÀ» Enter
-     echo. 2.Do you want to logout existing desktop session? (¬O§_»Ý­nµn¥X§A²{¦bªº¨Ï¥ÎªÌ)½ÐÂIÀ» N
+     echo. 1.Choose a user id (é¸æ“‡ä½ çš„ä½¿ç”¨è€…ID) è«‹é»žæ“Š Enter
+     echo. 2.Do you want to logout existing desktop session? (æ˜¯å¦éœ€è¦ç™»å‡ºä½ ç¾åœ¨çš„ä½¿ç”¨è€…)è«‹é»žæ“Š N
      echo.
      tdl login -n quickstart -d tdata/
      echo.
      echo.======================================
-     echo.            ¡°µn¤J¦¨¥\¡°
+     echo.            â€»ç™»å…¥æˆåŠŸâ€»
      echo.======================================
      echo.
-     echo.½Ð«ö¥ô·NÁäªð¦^
+     echo.è«‹æŒ‰ä»»æ„éµè¿”å›ž
      pause>nul
      cls
      :begin1
      echo.======================================
-     echo.       ¡°TelegramÂ²©ö¤U¸ü¤u¨ã¡°
+     echo.       â€»Telegramç°¡æ˜“ä¸‹è¼‰å·¥å…·â€»
      echo.======================================
      echo.
-     echo.¡°¤U¸ü§¹«áªºÀÉ®×©ódownloads¸ê®Æ§¨¤º¡°
+     echo.â€»ä¸‹è¼‰å®Œå¾Œçš„æª”æ¡ˆæ–¼downloadsè³‡æ–™å¤¾å…§â€»
      echo.
-     set /p url= ½Ð¶K¤WTelegram³sµ²¡G
+     set /p url= è«‹è²¼ä¸ŠTelegramé€£çµï¼š
      echo.
      tdl dl -n quickstart -u %url%
      echo.
      echo.======================================
-     echo.           ¡°¤U¸ü§¹¦¨¡°
+     echo.           â€»ä¸‹è¼‰å®Œæˆâ€»
      echo.======================================
      echo.
-     echo.½Ð«ö¥ô·NÁäÄ~Äò
+     echo.è«‹æŒ‰ä»»æ„éµç¹¼çºŒ
      pause>nul
      cls
      goto :begin1
 :num2
      cls
      echo.======================================
-     echo.          ¡°µn¿ý Telegram¡°
+     echo.          â€»ç™»éŒ„ Telegramâ€»
      echo.======================================
      echo.
-     echo.          Telegramµn¤J»¡©ú
+     echo.          Telegramç™»å…¥èªªæ˜Ž
      echo.
-     echo. 1.½Ð©ó¤U¤è¿é¤J¨Ï¥ÎªÌ¦WºÙ¨Ã½ÐÂIÀ» Enter
-     echo. 2.Enter your phone number: (+86 12345678900) ¥X²{¦¹°T®§«á½Ð©ó«á¤è¿é¤J¤â¾÷¸¹½X¦p(+886123456789)
-     echo. 3.Enter Code ¥X²{¦¹°T®§«á½Ð¿é¤JTelegram¤¤ªºÅçÃÒ½X
+     echo. 1.è«‹æ–¼ä¸‹æ–¹è¼¸å…¥ä½¿ç”¨è€…åç¨±ä¸¦è«‹é»žæ“Š Enter
+     echo. 2.Enter your phone number: (+86 12345678900) å‡ºç¾æ­¤è¨Šæ¯å¾Œè«‹æ–¼å¾Œæ–¹è¼¸å…¥æ‰‹æ©Ÿè™Ÿç¢¼å¦‚(+886123456789)
+     echo. 3.Enter Code å‡ºç¾æ­¤è¨Šæ¯å¾Œè«‹è¼¸å…¥Telegramä¸­çš„é©—è­‰ç¢¼
      echo.
-     echo.½Ð¿é¤JTelegram¨Ï¥ÎªÌ¦WºÙ¶i¦æµn¤J¡G
+     echo.è«‹è¼¸å…¥Telegramä½¿ç”¨è€…åç¨±é€²è¡Œç™»å…¥ï¼š
      set /p username=
      tdl login -n %username% --code
      echo.
      echo.======================================
-     echo.            ¡°µn¤J¦¨¥\¡°
+     echo.            â€»ç™»å…¥æˆåŠŸâ€»
      echo.======================================
      echo.
-     echo.½Ð«ö¥ô·NÁäªð¦^
+     echo.è«‹æŒ‰ä»»æ„éµè¿”å›ž
      pause>nul
      cls
      :begin2
      echo.======================================
-     echo.       ¡°TelegramÂ²©ö¤U¸ü¤u¨ã¡°
+     echo.       â€»Telegramç°¡æ˜“ä¸‹è¼‰å·¥å…·â€»
      echo.======================================
      echo.
-     echo.¡°¤U¸ü§¹«áªºÀÉ®×©ódownloads¸ê®Æ§¨¤º¡°
+     echo.â€»ä¸‹è¼‰å®Œå¾Œçš„æª”æ¡ˆæ–¼downloadsè³‡æ–™å¤¾å…§â€»
      echo.
-     set /p url= ½Ð¶K¤WTelegram³sµ²¡G
+     set /p url= è«‹è²¼ä¸ŠTelegramé€£çµï¼š
      echo.
      tdl dl url -n %username% -u %url%
      echo.
      echo.======================================
-     echo.           ¡°¤U¸ü§¹¦¨¡°
+     echo.           â€»ä¸‹è¼‰å®Œæˆâ€»
      echo.======================================
      echo.
-     echo.½Ð«ö¥ô·NÁäÄ~Äò
+     echo.è«‹æŒ‰ä»»æ„éµç¹¼çºŒ
      pause>nul
      cls
      goto :begin2
