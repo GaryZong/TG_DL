@@ -1,49 +1,49 @@
 ::===========================================================
 ::===========================================================
-::         TelegramÂ²©ö¤U¸ü¤u¨ã By¡GGZ Information
-::    ·PÁÂ±z¨Ï¥Î¥»À³¥Îµ{¦¡¡AÅwªï±zªº¦A¦¸ªº¨Ï¥Î
+::         Telegramç°¡æ˜“ä¸‹è¼‰å·¥å…· Byï¼šGZ Information
+::    æ„Ÿè¬æ‚¨ä½¿ç”¨æœ¬æ‡‰ç”¨ç¨‹å¼ï¼Œæ­¡è¿Žæ‚¨çš„å†æ¬¡çš„ä½¿ç”¨
 :: Copyright(C) 2023 GZ Information  All rights reserved
 ::===========================================================
 ::===========================================================
 @echo off
-title TelegramÂ²©ö¤U¸ü¤u¨ã By¡GGZ Information
+title Telegramç°¡æ˜“ä¸‹è¼‰å·¥å…· Byï¼šGZ Information
 echo.======================================
-echo.          ¡°µn¿ý Telegram¡°
+echo.          â€»ç™»éŒ„ Telegramâ€»
 echo.======================================
 echo.
-echo.          Telegramµn¤J»¡©ú
+echo.          Telegramç™»å…¥èªªæ˜Ž
 echo.
-echo. 1.½Ð©ó¤U¤è¿é¤J¨Ï¥ÎªÌ¦WºÙ¨Ã½ÐÂIÀ» Enter
-echo. 2.Enter your phone number: (+86 12345678900) ¥X²{¦¹°T®§«á½Ð©ó«á¤è¿é¤J¤â¾÷¸¹½X¦p(+886123456789)
-echo. 3.Enter Code ¥X²{¦¹°T®§«á½Ð¿é¤JTelegram¤¤ªºÅçÃÒ½X
+echo. 1.è«‹æ–¼ä¸‹æ–¹è¼¸å…¥ä½¿ç”¨è€…åç¨±ä¸¦è«‹é»žæ“Š Enter
+echo. 2.Enter your phone number: (+86 12345678900) å‡ºç¾æ­¤è¨Šæ¯å¾Œè«‹æ–¼å¾Œæ–¹è¼¸å…¥æ‰‹æ©Ÿè™Ÿç¢¼å¦‚(+886123456789)
+echo. 3.Enter Code å‡ºç¾æ­¤è¨Šæ¯å¾Œè«‹è¼¸å…¥Telegramä¸­çš„é©—è­‰ç¢¼
 echo.
-echo.½Ð¿é¤JTelegram¨Ï¥ÎªÌ¦WºÙ¶i¦æµn¤J¡G
+echo.è«‹è¼¸å…¥Telegramä½¿ç”¨è€…åç¨±é€²è¡Œç™»å…¥ï¼š
 set /p username=
 tdl login -n %username% --code
 echo.
 echo.======================================
-echo.            ¡°µn¤J¦¨¥\¡°
+echo.            â€»ç™»å…¥æˆåŠŸâ€»
 echo.======================================
 echo.
-echo.½Ð«ö¥ô·NÁäªð¦^
+echo.è«‹æŒ‰ä»»æ„éµè¿”å›ž
 pause>nul
 cls
 :begin
 echo.======================================
-echo.       ¡°TelegramÂ²©ö¤U¸ü¤u¨ã¡°
+echo.       â€»Telegramç°¡æ˜“ä¸‹è¼‰å·¥å…·â€»
 echo.======================================
 echo.
-echo.¡°¤U¸ü§¹«áªºÀÉ®×©ódownloads¸ê®Æ§¨¤º¡°
+echo.â€»ä¸‹è¼‰å®Œå¾Œçš„æª”æ¡ˆæ–¼downloadsè³‡æ–™å¤¾å…§â€»
 echo.
-set /p url= ½Ð¶K¤WTelegram³sµ²¡G
+set /p url= è«‹è²¼ä¸ŠTelegramé€£çµï¼š
 echo.
 tdl dl url -n %username% -u %url%
 echo.
 echo.======================================
-echo.           ¡°¤U¸ü§¹¦¨¡°
+echo.           â€»ä¸‹è¼‰å®Œæˆâ€»
 echo.======================================
 echo.
-echo.½Ð«ö¥ô·NÁäÄ~Äò
+echo.è«‹æŒ‰ä»»æ„éµç¹¼çºŒ
 pause>nul
 cls
 goto :begin
